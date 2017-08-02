@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    depends_on:
+      - mongo
+    environment:
+      - MONGODB_URI=mongo://mongo/beerjs
+    networks:
+      - beerjs
+    ports:
+      - "3000:3000"
+
+  mongo:
+    image: mvertes/alpine-mongo:3.4.4-0
+    networks:
+      - beerjs
+    volumes:
+      - mongo:/data/db
+
+volumes:
+  mongo:
+
+networks:
+  beerjs:
