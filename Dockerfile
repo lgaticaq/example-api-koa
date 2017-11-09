@@ -1,1 +1,1 @@
-FROM lgatica/node-krb5:8-onbuild@sha256:e6e02409f210e06356ddbd25a3a543fe68bee976c3e564d014ebd144cb05fa8f
+FROM lgatica/node-krb5:8-onbuild@sha256:6bbfaefd96d2daeea7d089ddac8685990f51e1b8bb150bf735b31972c8416823
