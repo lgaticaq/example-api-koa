@@ -51,7 +51,7 @@
     "mocha": "4.0.1",
     "nodemon": "1.14.2",
     "now-travis": "1.2.0",
-    "prettier-standard": "7.0.3",
+    "prettier-standard": "8.0.0",
     "supertest": "3.0.0"
   },
   "eslintConfig": {
