@@ -18,7 +18,7 @@ services:
       - .:/usr/src/app
 
   mongo:
-    image: mvertes/alpine-mongo:3.4.4-0@sha256:472c285e9b50becea83f20e930a0897d5b1e53bd3970e8c9b498ddd64a6e0a16
+    image: mvertes/alpine-mongo:3.6.3-0@sha256:3fb2675c7e6e4cfb93bdc4a7326ebabd536786ec4723d6348f2b7ad70bff36ab
     networks:
       - beerjs
     volumes:
