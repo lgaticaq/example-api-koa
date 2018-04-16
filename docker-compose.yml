@@ -13,7 +13,7 @@ services:
       - "3000:3000"
 
   mongo:
-    image: mvertes/alpine-mongo:3.6.3-0@sha256:3fb2675c7e6e4cfb93bdc4a7326ebabd536786ec4723d6348f2b7ad70bff36ab
+    image: mvertes/alpine-mongo:3.6.4-0@sha256:245799dcfdb1bcdb42e8f97da8a6d147a249b8e7f1dd00cc729a7dfe7d0e4452
     networks:
       - beerjs
     volumes:
