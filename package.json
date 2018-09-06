@@ -52,7 +52,7 @@
     "nodemon": "1.18.4",
     "now-travis": "1.2.0",
     "prettier-standard": "8.0.1",
-    "supertest": "3.2.0"
+    "supertest": "3.3.0"
   },
   "eslintConfig": {
     "extends": "standard",
